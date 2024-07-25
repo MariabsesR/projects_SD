@@ -31,9 +31,7 @@ To run the system, follow these steps:
 
     Compilation: Compile the project using the Makefile. In the terminal, execute:
 
-    bash
-
-make
+    make
 
 Start ZooKeeper: Ensure the ZooKeeper service is running and note its IP and port.
 
@@ -41,7 +39,7 @@ Start Servers:
 
     Run the server with the ZooKeeper IP and port as an argument:
 
-    bash
+  
 
     ./table_server <zookeeper_ip>:<zookeeper_port> <server_port> <num_lists>
 
@@ -49,7 +47,7 @@ Start Clients:
 
     Run the client with the ZooKeeper IP and port as an argument:
 
-    bash
+   
 
     ./table_client <zookeeper_ip>:<zookeeper_port>
 
